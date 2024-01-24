@@ -194,3 +194,21 @@
     letter-spacing: 1.4px;
     text-transform: uppercase;
 }
+
+/* ///////////// */
+
+
+.product-content{
+
+}
+
+.heading-text-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 120px 74px 40px 80px;
+    gap: 23px;
+} 
+
