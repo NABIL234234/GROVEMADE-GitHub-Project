@@ -1,49 +1,73 @@
 
 .container{
-    max-width: 1365px;
-    margin-right: auto;
-    margin-left: auto;
-   }
-   
-   .header-row{
+ max-width: 1365px;
+ margin-right: auto;
+ margin-left: auto;
+}
+
+.header-row{
+ display: flex;
+ justify-content: space-between;
+ align-items:center;
+ padding-top: 28px;
+ padding-right: 50px;
+ padding-bottom: 28px;
+}
+
+.header-nav{
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+.header-nav ul{
     display: flex;
-    justify-content: space-between;
-    align-items:center;
-    padding-top: 28px;
-    padding-right: 50px;
-    padding-bottom: 28px;
-   }
-   
-   .header-nav{
-       color: #000;
-       font-family: Roboto;
-       font-size: 13px;
-       font-style: normal;
-       font-weight: 400;
-       line-height: normal;
-       letter-spacing: 1.4px;
-       text-transform: uppercase;
-   }
-   
-   .header-nav ul{
-       display: flex;
-       gap: 24px;
-   }
-   
-   .header-logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
-   
-   .header-btn{
-       color: #000;
-       text-align: right;
-       font-family: Roboto;
-       font-size: 14px;
-       font-style: normal;
-       font-weight: 400;
-       line-height: normal;
-       letter-spacing: 1.4px;
-       text-transform: uppercase;
-   }
+    gap: 24px;
+}
+
+.header-logo{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.header-btn{
+    color: #000;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+/* ///*/
+
+.ShelfSystem{
+ background-image: url(./image/png.image/Shelf-system\ img.png);
+}
+
+
+.ShelfSystem-content{
+
+}
+
+
+.ShelfSystem-maintext{
+
+}
+
+.ShelfSystem-minitext{
+
+}
+
+.learn-more{
+
+}
