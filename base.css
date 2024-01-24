@@ -198,11 +198,9 @@
 /* ///////////// */
 
 
-.product-content{
+.product-content {}
 
-}
-
-.heading-text-product{
+.heading-text-product {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,5 +208,28 @@
     text-align: center;
     padding: 120px 74px 40px 80px;
     gap: 23px;
-} 
+}
 
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 16px;
+    padding: 8.875px 0px 5.125px 0px;
+}
+
+.dots1 {
+    width: 7px;
+    height: 7px;
+    background-color: #000;;
+}
+.dots2 {
+    width: 7px;
+    height: 7px;
+    background-color: #000;;
+}
+.dots3 {
+    width: 7px;
+    height: 7px;
+    background-color: #000;;
+}
