@@ -213,7 +213,7 @@
 .dots {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     gap: 16px;
     padding: 8.875px 0px 5.125px 0px;
 }
@@ -221,46 +221,55 @@
 .dots1 {
     width: 7px;
     height: 7px;
-    background-color: #000;;
+    background-color: #000;
+    ;
 }
+
 .dots2 {
     width: 7px;
     height: 7px;
-    background-color: #000;;
+    background-color: #000;
+    ;
 }
+
 .dots3 {
     width: 7px;
     height: 7px;
-    background-color: #000;;
+    background-color: #000;
+    ;
 }
 
 /* /// */
 
 
-.list-products{
+.list-products {}
 
-}
-
-.devices{
-
-}
-
-.img-phone{
-
-}
-
-.img-laptop{
-
-}
-
-.img-tablet{
-
-}
-
-.img-manitor{
-
-}
-
-.price-cont{
+.devices {
     
 }
+
+.img-phone {
+    background-image: url(./image/png.image/phone.png);
+    width: 310px;
+    height: 433px;
+}
+
+.img-laptop {
+    background-image: url(./image/png.image/laptop.png);
+    width: 310px;
+    height: 433px;
+}
+
+.img-tablet {
+    background-image: url(./image/png.image/tablet.png);
+    width: 310px;
+    height: 433px;
+}
+
+.img-manitor {
+    background-image: url(./image/png.image/manitor.png);
+    width:310px;
+    height: 433px;
+}
+
+.price-cont {}
