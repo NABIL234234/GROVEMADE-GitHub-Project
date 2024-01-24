@@ -116,10 +116,10 @@
     color: aqua;
 }
 
-/* ////// */
+/* ///////////// */
 
 
-.heading-text{
+.heading-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,4 +146,51 @@
     font-style: normal;
     font-weight: 400;
     line-height: 24px
+}
+
+/* /// */
+
+.computers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.Desk-Pads {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 23px;
+}
+
+
+.laptop-stands {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 23px;
+}
+
+
+.name-text {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 51px;
+}
+
+.computers a {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
 }
