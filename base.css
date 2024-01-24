@@ -242,11 +242,14 @@
 /* /// */
 
 
-.list-products {}
-
-.devices {
-    
+.list-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    column-gap:25px;
+    padding: 18px 25px ;
+    padding-bottom: 100px; 
 }
+
 
 .img-phone {
     background-image: url(./image/png.image/phone.png);
