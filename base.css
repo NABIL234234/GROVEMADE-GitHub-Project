@@ -1,20 +1,19 @@
-
-.container{
- max-width: 1365px;
- margin-right: auto;
- margin-left: auto;
+.container {
+    max-width: 1365px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.header-row{
- display: flex;
- justify-content: space-between;
- align-items:center;
- padding-top: 28px;
- padding-right: 50px;
- padding-bottom: 28px;
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+    padding-right: 50px;
+    padding-bottom: 28px;
 }
 
-.header-nav{
+.header-nav {
     color: #000;
     font-family: Roboto;
     font-size: 13px;
@@ -25,22 +24,22 @@
     text-transform: uppercase;
 }
 
-.header-nav ul{
+.header-nav ul {
     display: flex;
     gap: 24px;
 }
 
 .header-nav a:hover {
-    color:rgb(14, 226, 195);
+    color: rgb(14, 226, 195);
 }
 
-.header-logo{
- display: flex;
- justify-content: center;
- align-items: center;
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.header-btn{
+.header-btn {
     color: #000;
     text-align: right;
     font-family: Roboto;
@@ -52,8 +51,8 @@
     text-transform: uppercase;
 }
 
-.header-btn:hover{
-    color:rgb(14, 226, 195);
+.header-btn:hover {
+    color: rgb(14, 226, 195);
     /* filter: drop-shadow(5px 0px 5px 
                         #000
     ); */
@@ -61,26 +60,26 @@
 
 /* //////////*/
 
-.Desk-Shel-System{
+.Desk-Shel-System {
     background-image: url(./image/png.image/Shelf-system\ img.png);
     height: 510px;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 
-.ShelfSystem-content{
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  flex-direction: column;
-  padding-top: 193px;
-  gap: 12px;
+.ShelfSystem-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 193px;
+    gap: 12px;
 }
 
 
-.ShelfSystem-maintext{
+.ShelfSystem-maintext {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -90,7 +89,7 @@
     line-height: 46px;
 }
 
-.ShelfSystem-minitext{
+.ShelfSystem-minitext {
     color: #FFF;
     text-align: center;
     font-family: Roboto;
@@ -113,12 +112,38 @@
     text-transform: uppercase;
 }
 
-.learn-more:hover{
-    color:aqua;
+.learn-more:hover {
+    color: aqua;
 }
 
 /* ////// */
 
-.desing-content{
-    
+
+.heading-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 430px 80px 430px;
+    gap: 23px;
+}
+
+.main-text {
+    color: #000;
+    font-family: Roboto;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px
+}
+
+.mini-text {
+    color: #A0A0A0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px
 }
