@@ -30,6 +30,10 @@
     gap: 24px;
 }
 
+.header-nav a:hover {
+    color:rgb(14, 226, 195);
+}
+
 .header-logo{
  display: flex;
  justify-content: center;
@@ -48,26 +52,70 @@
     text-transform: uppercase;
 }
 
-/* ///*/
+.header-btn:hover{
+    color:rgb(14, 226, 195);
+    /* filter: drop-shadow(5px 0px 5px 
+                        #000
+    ); */
+}
 
-.ShelfSystem{
- background-image: url(./image/png.image/Shelf-system\ img.png);
+/* //////////*/
+
+.Desk-Shel-System{
+    background-image: url(./image/png.image/Shelf-system\ img.png);
+    height: 510px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 
 .ShelfSystem-content{
-
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  padding-top: 193px;
+  gap: 12px;
 }
 
 
 .ShelfSystem-maintext{
-
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
 }
 
 .ShelfSystem-minitext{
-
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
 }
 
-.learn-more{
-
+.learn-more {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
 }
+
+.learn-more:hover{
+    color:aqua;
+}
+
+/* ////// */
+
