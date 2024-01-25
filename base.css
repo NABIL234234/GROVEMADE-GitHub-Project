@@ -479,3 +479,20 @@
     line-height: normal;
     letter-spacing: 0.8px;
 }
+
+
+.low-mini-text{
+    display: flex;
+    justify-content: flex-end;
+    gap: 38px;
+}
+.low-mini-text h5{
+    color: #707A7F;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px
+}
