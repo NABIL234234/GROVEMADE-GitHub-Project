@@ -296,3 +296,16 @@
     font-weight: 400;
     line-height: 21px;
 }
+
+/* /////////////// */
+
+
+.office{
+ background-image:url(./image/png.image/office.png);
+ height: 504px;
+}
+
+.office-content{
+
+}
+
