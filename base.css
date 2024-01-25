@@ -340,6 +340,8 @@
     align-items:center;
     gap:24px;
     column-gap:28px;
+    padding-top: 79px;
+    padding-bottom: 27px;
 }
 
 .people-content img{
@@ -347,4 +349,12 @@
     height: 271px;
 }
 
+.lower-text-people{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    column-gap:44px;
+    padding-top: 175px;
+}
 
