@@ -318,3 +318,17 @@
     align-items:center;
     justify-content: center;
 }
+
+.lower-text{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding-top: 38px;
+}
+
+.lower-text p{
+    max-width: 770px;
+}
+
+/* ///// */
