@@ -331,4 +331,20 @@
     max-width: 770px;
 }
 
-/* ///// */
+/* ///////////// */
+
+
+.people-content{
+    display: grid;
+    justify-content: center;
+    align-items:center;
+    gap:24px;
+    column-gap:28px;
+}
+
+.people-content img{
+    width: 203px;
+    height: 271px;
+}
+
+
