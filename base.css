@@ -311,3 +311,10 @@
 .heading-text-product p{
  max-width: 770px;
 }
+
+
+.hard-way-img{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
