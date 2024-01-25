@@ -300,61 +300,111 @@
 /* /////////////// */
 
 
-.office{
- background-image:url(./image/png.image/office.png);
- height: 504px;
+.office {
+    background-image: url(./image/png.image/office.png);
+    height: 504px;
 }
 
 /* /////////////// */
 
 
-.heading-text-product p{
- max-width: 770px;
+.heading-text-product p {
+    max-width: 770px;
 }
 
 
-.hard-way-img{
+.hard-way-img {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
 
-.lower-text{
+.lower-text {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
     padding-top: 38px;
 }
 
-.lower-text p{
+.lower-text p {
     max-width: 770px;
 }
 
 /* ///////////// */
 
 
-.people-content{
+.people-content {
     display: grid;
     justify-content: center;
-    align-items:center;
-    gap:24px;
-    column-gap:28px;
+    align-items: center;
+    gap: 24px;
+    column-gap: 28px;
     padding-top: 79px;
     padding-bottom: 27px;
 }
 
-.people-content img{
+.people-content img {
     width: 203px;
     height: 271px;
 }
 
-.lower-text-people{
+.lower-text-people {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-direction: column;
-    column-gap:44px;
+    column-gap: 44px;
     padding-top: 175px;
 }
 
+.lower-text-people a {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    padding-top: 44px;
+}
+
+/* /// */
+
+.inspires {
+    width: 1340px;
+    height: 404px;
+    background-color: #9AA8B1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.inspires img {
+    width: 40px;
+    height: 34px;
+}
+
+.main-text-inspires {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px
+}
+
+.mini-text-inspires {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* ///// */
